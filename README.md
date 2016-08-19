@@ -26,7 +26,9 @@ The code has many comments and should be self-explanatory.
 
 ## Server Side
 
-The server-side code is written in [node.js] (https://nodejs.org). You'll want to copy the [audioserver.js] (https://github.com/rickkas7/photonAudioSample1/blob/master/audioserver.js) file to your computer. It requires the standard Node 4.5.0 features plus the wav package to output the audio files. You install it using:
+The server-side code is written in [node.js] (https://nodejs.org). You'll want to copy the [audioserver.js] (https://github.com/rickkas7/photonAudioSample1/blob/master/audioserver.js) file to your computer. 
+
+It requires the standard Node 4.5.0 features plus the [wav package] (https://github.com/TooTallNate/node-wav) to output the audio files. You install it using:
 
 ```
 npm install wav
