@@ -17,14 +17,14 @@ The connections from the microphone board are:
 * VDD  - 3V3
 * GND  - GND
 
-Then you just need to flash the audio1.cpp file to your Photon. Make sure you edit the IP address of your server! 
+Then you just need to flash the [audio1.cpp] (https://github.com/rickkas7/photonAudioSample1/blob/master/audio1.cpp) file to your Photon. Make sure you edit the IP address of your server! 
 
 The code has many comments and should be self-explanatory.
 
 
 ## Server Side
 
-The server-side code is written in [node.js] (https://nodejs.org). You'll want to copy the audioserver.js file to your computer. It requires the standard Node 4.5.0 features plus the wav package to output the audio files. You install it using:
+The server-side code is written in [node.js] (https://nodejs.org). You'll want to copy the [audioserver.js] (https://github.com/rickkas7/photonAudioSample1/blob/master/audioserver.js) file to your computer. It requires the standard Node 4.5.0 features plus the wav package to output the audio files. You install it using:
 
 ```
 npm install wav
