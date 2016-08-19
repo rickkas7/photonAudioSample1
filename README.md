@@ -19,6 +19,8 @@ The connections from the microphone board are:
 
 Then you just need to flash the [audio1.cpp] (https://github.com/rickkas7/photonAudioSample1/blob/master/audio1.cpp) file to your Photon. Make sure you edit the IP address of your server! 
 
+The code also requires the [SparkIntervalTimer] (https://github.com/pkourany/SparkIntervalTimer) library, so make sure you add that in Particle Build (Web IDE) or do whatever is necessary for the build environment you are using.
+
 The code has many comments and should be self-explanatory.
 
 
