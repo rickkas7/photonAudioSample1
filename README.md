@@ -3,6 +3,8 @@
 
 ![Prototype Image](image.jpg)
 
+**Note: There is new location for audio samples: [https://github.com/rickkas7/photonAudio] (https://github.com/rickkas7/photonAudio) that contains this sample and will contain others. You should go there, instead, for updates.**
+
 This simple project uses an [Adafruit 1713] (https://www.adafruit.com/products/1713) Electret Microphone Amplifier - MAX9814 with Auto Gain Control to capture audio on the Photon, then sends the data via TCP to a server.
 
 I used a local server running node.js to receive and process the files in this case, but the data rate is only 16K bytes/second so it should work over the Internet, as well.
